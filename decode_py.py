@@ -24,7 +24,6 @@ def decode_email(encoded_email):
     except Exception as e:
         print(e)
     return email
-
 if __name__ == '__main__':
     email_encode = '48203d262f3b2923217a78787b082f25292124662b2725'
     email = decode_email(email_encode)
